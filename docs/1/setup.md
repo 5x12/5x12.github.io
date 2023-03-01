@@ -23,7 +23,7 @@ import numpy as np #to work with numbers
 %config InlineBackend.figure_format = 'retina' #to make sharper and prettier plots
 ```
 
-Next step is to re-create our hypothetical dataset that we've been working with.
+Next step is to re-create our hypothetical dataset that we've been working with:
 
 ```{code-cell} ipython3
 x = np.array([[30], [46], [60], [65], [77], [95]])
