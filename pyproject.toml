@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "p-dydx-guide"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Wolf <contact@awolf.io>"]
+license = "CCBY-4.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
