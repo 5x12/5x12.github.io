@@ -3,7 +3,10 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+- caption: 1. SET-UP
+  chapters:
+  - file: 1/setup
+    title: 1.1. Initialization
+  - file: 1/setup_2
+    title: 1.2. Another Things
