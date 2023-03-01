@@ -17,10 +17,7 @@ kernelspec:
 
 
 ```{code-cell} ipython3
-import sympy as sym #to take derivatives of functions
-import matplotlib.pyplot as plt #to build graphs
 import numpy as np #to work with numbers
-%config InlineBackend.figure_format = 'retina' #to make sharper and prettier plots
 ```
 
 Next step is to re-create our hypothetical dataset that we've been working with:
