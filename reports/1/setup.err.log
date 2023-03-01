@@ -17,19 +17,14 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-import sympy as sym #to take derivatives of functions
-import matplotlib.pyplot as plt #to build graphs
 import numpy as np #to work with numbers
-%config InlineBackend.figure_format = 'retina' #to make sharper and prettier plots
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
 Cell [0;32mIn[1], line 1[0m
-[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01msympy[39;00m [38;5;28;01mas[39;00m [38;5;21;01msym[39;00m [38;5;66;03m#to take derivatives of functions[39;00m
-[1;32m      2[0m [38;5;28;01mimport[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpyplot[39;00m [38;5;28;01mas[39;00m [38;5;21;01mplt[39;00m [38;5;66;03m#to build graphs[39;00m
-[1;32m      3[0m [38;5;28;01mimport[39;00m [38;5;21;01mnumpy[39;00m [38;5;28;01mas[39;00m [38;5;21;01mnp[39;00m [38;5;66;03m#to work with numbers[39;00m
+[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mnumpy[39;00m [38;5;28;01mas[39;00m [38;5;21;01mnp[39;00m [38;5;66;03m#to work with numbers[39;00m
 
-[0;31mModuleNotFoundError[0m: No module named 'sympy'
-ModuleNotFoundError: No module named 'sympy'
+[0;31mModuleNotFoundError[0m: No module named 'numpy'
+ModuleNotFoundError: No module named 'numpy'
 
